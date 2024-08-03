@@ -5,8 +5,6 @@ import {
   ListboxOption,
   ListboxOptions,
 } from "@headlessui/react";
-import { CheckIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
-import clsx from "clsx";
 import { useState } from "react";
 
 const people = [
@@ -22,16 +20,13 @@ export function Example() {
 
   return (
     <Listbox value={selectedPeople} onChange={setSelectedPeople} multiple>
-      <ListboxButton>
-        {selectedPeople.map((person) => person.name).join(", ")}
-      </ListboxButton>
-      <ListboxOptions anchor="bottom">
+      <ListboxButton>Select Translators</ListboxButton>
+      <ListboxOptions static>
         {people.map((person) => (
           <ListboxOption
             key={person.id}
             value={person}
             className="data-[selected]:bg-blue-400"
-            // className="data-[focus]:bg-blue-100"
           >
             {person.name}
           </ListboxOption>
@@ -45,7 +40,7 @@ function Page() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* <div className="flex flex-col justify-center items-center bg-black"> */}
-      <h2 className="">Test2 Listbox component of headlessui/react</h2>
+      <h2 className="">Test3 Listbox component of headlessui/react</h2>
       <Example />
     </div>
   );
