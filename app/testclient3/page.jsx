@@ -41,6 +41,11 @@ function Page() {
     <div className="flex flex-col justify-center items-center">
       {/* <div className="flex flex-col justify-center items-center bg-black"> */}
       <h2 className="">Test3 Listbox component of headlessui/react</h2>
+      <p>
+        Simplified example with minimal styling; Multiple selections; ListBox
+        always open
+      </p>
+
       <Example />
     </div>
   );

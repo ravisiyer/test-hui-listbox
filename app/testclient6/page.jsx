@@ -106,6 +106,10 @@ function Page() {
       <div className="flex flex-col justify-center items-center">
         {/* <div className="flex flex-col justify-center items-center bg-black"> */}
         <h2 className="">Test6 Listbox component of headlessui/react</h2>
+        <p>
+          3 ListBoxes with associated 3 state variables; Hardcoded number of
+          listboxes and state variables
+        </p>
         <Example
           peopleLanguageIndex={0}
           selectedPeopleByLanguage={selectedPeopleByLanguage0}

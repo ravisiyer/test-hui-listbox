@@ -55,6 +55,11 @@ function Page() {
       <div className="flex flex-col justify-center items-center">
         {/* <div className="flex flex-col justify-center items-center bg-black"> */}
         <h2 className="">Test4 Listbox component of headlessui/react</h2>
+        <p>
+          Multiple selections; ListBox always open; State variable moved to Page
+          and passes as prop to ListBox wrapper component
+        </p>
+
         <Example
           selectedPeople={selectedPeople}
           setSelectedPeople={setSelectedPeople}

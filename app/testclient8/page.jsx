@@ -113,6 +113,10 @@ function Page() {
     <>
       <div className="flex flex-col justify-center items-center">
         <h2 className="">Test8 Listbox component of headlessui/react</h2>
+        <p>
+          Number of Listboxes created is dynamically based on length of (1st
+          Dimension of) peopleAllLanguages data constant array (2D)
+        </p>
         {peopleAllLanguages.map((peopleByLanguage, index) => {
           return (
             <div key={`Ex-${index}`}>

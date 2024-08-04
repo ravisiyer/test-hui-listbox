@@ -66,6 +66,7 @@ function Page() {
       <div className="flex flex-col justify-center items-center">
         {/* <div className="flex flex-col justify-center items-center bg-black"> */}
         <h2 className="">Test5 Listbox component of headlessui/react</h2>
+        <p>Adds Select All and Clear All buttons</p>
         <Example
           selectedPeople={selectedPeople}
           setSelectedPeople={setSelectedPeople}

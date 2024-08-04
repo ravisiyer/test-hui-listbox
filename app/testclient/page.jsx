@@ -64,6 +64,9 @@ function Page() {
   return (
     <div className="flex flex-col justify-center items-center bg-black">
       <h2 className="text-white">Test Listbox component of headlessui/react</h2>
+      <p className="text-white">
+        Based on or similar to Headless UI example code; Dropdown
+      </p>
       <Example />
     </div>
   );

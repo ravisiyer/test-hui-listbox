@@ -130,6 +130,9 @@ function Page() {
   return (
     <div className="flex flex-col justify-center items-center">
       <h2 className="">Test9 Listbox component of headlessui/react</h2>
+      <p>
+        Adds saving selections to cookie and loading it from cookie; Improves UI
+      </p>
       <div className="flex">
         {peopleAllLanguages.map((peopleByLanguage, index) => {
           return (

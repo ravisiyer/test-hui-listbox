@@ -151,8 +151,8 @@ function Page() {
     <div className="flex flex-col justify-center items-center">
       <h2 className="">Test10 Listbox component of headlessui/react</h2>
       <p>
-        Allows user to save selections in a cookie, handles increase or decrease
-        in number of languages.
+        Fixed issues in increase or decrease in number of languages in
+        peopleAllLanguages data constant
       </p>
       <div className="flex">
         {peopleAllLanguages.map((peopleByLanguage, index) => {
