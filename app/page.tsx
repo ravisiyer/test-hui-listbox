@@ -32,6 +32,9 @@ export default function Home() {
       <Link href="/testclient9" className="underline block my-4">
         Test9 Listbox component of headlessui/react
       </Link>
+      <Link href="/testclient10" className="underline block my-4">
+        Test10 Listbox component of headlessui/react
+      </Link>
     </main>
   );
 }
