@@ -18,6 +18,15 @@ export default function Home() {
         Test3: Simplified example with minimal styling; Multiple selections;
         ListBox always open
       </Link>
+      <Link href="/testclient3a" className="underline block my-4">
+        Test3a: Simplified example with minimal styling; Multiple selections;
+        ListBox always open; Uncontrolled component (no state variable); render
+        prop used
+      </Link>
+      <Link href="/testclient3b" className="underline block my-4">
+        Test3b: Uncontrolled component; form and name; List (submit) button in
+        page parent component lists selections
+      </Link>
       <Link href="/testclient4" className="underline block my-4">
         Test4: Multiple selections; ListBox always open; State variable moved to
         Page and passes as prop to ListBox wrapper component
